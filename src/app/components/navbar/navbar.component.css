@@ -1,3 +1,64 @@
-p {
+@font-face {
     font-family: Staatliches;
+    src: url('src/assets/fonts/Staatliches-Regular.ttf');
+}
+
+nav {
+    font-family: Staatliches;
+}
+
+p {
+    color: #FFF;
+    font-family: Staatliches;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.line-title {
+    line-height: 1px;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.subtitle {
+    font-size: 24px;
+}
+
+#info-name {
+    text-align: left;
+    position: absolute;
+    top: 24px;
+    left: 31px;
+}
+
+#navbar {
+    position: relative;
+    left: 683px;
+    top: 24px;
+    text-align: center;
+    width: 560px;
+    height: 80px;
+    border-radius: 153px;
+    border: solid 4px #FFF;
+}
+
+#navbar a {
+    position: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+    font-size: 32px;
+
+}
+
+#info-stats {
+    text-align: right;
+    position: relative;
+    right: 32px;
+    bottom: 72px;
 }
