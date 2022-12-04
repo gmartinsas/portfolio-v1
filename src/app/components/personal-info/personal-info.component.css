@@ -1,0 +1,25 @@
+#banner {
+    height: 473px;
+    border-radius: 100px;
+    background-color: #FFBFC4;
+}
+
+#itens {
+    position: relative;
+    top: 16px;
+}
+
+p {
+    font-family: Staatliches;
+    font-size: 64px;
+    text-align: right;
+    color: #2B93CB;
+}
+
+#saudacao {
+    margin-top: 24px;
+}
+
+#info {
+    line-height: 91%;
+}

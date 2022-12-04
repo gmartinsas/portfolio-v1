@@ -5,20 +5,18 @@
 
 nav {
     font-family: Staatliches;
+    margin-bottom: 64px;
 }
 
 p {
     color: #FFF;
     font-family: Staatliches;
+    line-height: 90%;
 }
 
 a {
     color: #FFF;
     text-decoration: none;
-}
-
-.line-title {
-    line-height: 1px;
 }
 
 .title {
@@ -32,33 +30,32 @@ a {
 #info-name {
     text-align: left;
     position: absolute;
-    top: 24px;
-    left: 31px;
-}
-
-#navbar {
-    position: relative;
-    left: 683px;
-    top: 24px;
-    text-align: center;
-    width: 560px;
-    height: 80px;
-    border-radius: 153px;
-    border: solid 4px #FFF;
-}
-
-#navbar a {
-    position: flex;
-    justify-content: space-evenly;
-    position: relative;
-    top: 20px;
-    font-size: 32px;
-
+    top: 40px;
 }
 
 #info-stats {
     text-align: right;
     position: relative;
-    right: 32px;
-    bottom: 72px;
+    top: 24px;
+}
+
+#navbar {
+    text-align: center;
+    width: 560px;
+    height: 80px;
+    border-radius: 153px;
+    border: solid 4px #FFF;
+    position: relative;
+    top: 16px;
+}
+
+#navbar a {
+    position: relative;
+    top: 14px;
+    margin-left: 16px;
+    font-size: 32px;
+}
+
+#navbar a:hover {
+    color: #2B93CB;
 }
